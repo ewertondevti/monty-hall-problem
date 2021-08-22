@@ -1,0 +1,30 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    width: 70vw;
+    height: 70vh;
+    background-color: slategray;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputNumber {
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 20px;
+}
